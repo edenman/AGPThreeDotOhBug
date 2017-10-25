@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Base application theme. -->
+  <style name="AppTheme">
+  </style>
+
+  <!-- A stub so the theme in the Facebook SDK doesn't blow up. -->
+  <style name="Theme.AppCompat.NoActionBar" parent="AppTheme" tools:override="true">
+  </style>
+
+  <!-- A stub so the styles in the Facebook SDK don't blow up. -->
+  <style name="Theme.AppCompat.Dialog" parent="AppTheme" tools:override="true">
+  </style>
+
+  <!-- A stub so the layouts in the Facebook SDK don't blow up. -->
+  <declare-styleable name="CardView">
+    <attr name="cardBackgroundColor" format="color"/>
+    <attr name="cardElevation" format="dimension"/>
+  </declare-styleable>
+
+  <!-- A stub so the layouts in the Facebook SDK don't blow up. -->
+  <declare-styleable name="AppCompatImageView">
+    <attr name="srcCompat" format="reference"/>
+  </declare-styleable>
+
+</resources>
